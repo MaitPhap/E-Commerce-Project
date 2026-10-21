@@ -7,10 +7,11 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000'
+        target: 'https://e-commerce-project-ten-indol.vercel.app/'
+        // target: 'http://localhost:3000'
       },
       '/images': {
-        target: 'http://localhost:3000'
+        target: 'https://e-commerce-project-ten-indol.vercel.app/'
       }
     }
   }

@@ -77,8 +77,6 @@ export function OrdersPage({ cart }) {
                               Track package
                             </button>
                           </a>
-
-                          <button className="track-package-button button-secondary">Add To Card</button>
                         </div>
                       </Fragment>
                     );
